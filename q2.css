@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+}
+.Main-cont{
+    height: 100vh;
+    width:100vw;
+    border:1 px solid black;
+    display: flex;
+    background-image: url("login.png");
+    background-size:cover;
+    background-repeat: none;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.login{
+    text-align: center;
+    text-decoration-color: crimson;
+    
+}
+
+.sub-cont{
+    height:400px;
+    width:400px;
+    border:1 px solid black;
+    background: #fff;
+   
+    border-radius: 5%;
+
+}
+.inputs{
+    font-style: normal;
+    margin-left: 9px;
+}
+.checkbox{
+    margin-left: 9px;
+
+}

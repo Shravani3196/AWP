@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="q2.css">
+    <title>Question 1</title>
+</head>
+<body>
+    <div class="Main-cont">
+        <div class="sub-cont">
+          <div class="login">
+              <h1>Login</h1>
+              
+              
+          </div><br><br>
+       <div class="inputs">
+           <form>
+        First Name: <input type="text" id="fname" placeholder="please enter your first name" required><br><br>
+        Last Name: <input type="text" id="lname" placeholder="please enter your last name"><br><br>
+        Mobile Number: <input type="number" id="num" placeholder="please enter your number" maxlength="10" required><br><br>
+        Address: <input type="text" id="add" placeholder="please enter your Address"><br><br>
+          Email: <input type="mail" id="mail" placeholder="please enter your email"><br><br>
+          Password: <input type="password" id="pass" placeholder="please enter your password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,15}" required>
+       </div><br><br>
+       <div class="checkbox">
+      <div> <input type="checkbox">Remember Me</div> 
+<div><button id="log" onclick="required">Login</button></div>
+<div><button id="sub" onclick="clear()">Submit</button></div>
+       </div>
+    </form>
+   </div>
+    </div>
+</body>
+</html>
